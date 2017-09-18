@@ -12,3 +12,19 @@
 - [solution](leetcode/AddTwoNumbers.java)
 - sentinel; two pointers are maintained for the output list, one is the head, the other is the tail(curr, continously updated).
 - [Add Two numbers](https://leetcode.com/articles/add-two-numbers/)
+
+## Facebook
+### [Move Zeroes](https://leetcode.com/problems/move-zeroes/description/)
+- [solution1](leetcode/MoveZeroes_sol1.java)
+- [solution2](leetcode/MoveZeroes_sol2.java)
+- [solution3](leetcode/MoveZeroes_sol3.java)
+- [Move zeroes](https://leetcode.com/articles/move-zeroes/)
+
+### [Roman to Integers](https://leetcode.com/problems/roman-to-integer/description/)
+- [solution](leetcode/RomanToInteger.java)
+
+### [Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/description/)
+- [solution1](leetcode/ReverseLinkedList_sol1.java)
+- [solution2](leetcode/ReverseLinkedList_sol2.java)
+- [solution3](leetcode/ReverseLinkedList_sol3.java)
+- [Reverse Linked List](https://leetcode.com/articles/reverse-linked-list/)
