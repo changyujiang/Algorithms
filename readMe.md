@@ -28,3 +28,7 @@
 - [solution2](leetcode/ReverseLinkedList_sol2.java)
 - [solution3](leetcode/ReverseLinkedList_sol3.java)
 - [Reverse Linked List](https://leetcode.com/articles/reverse-linked-list/)
+
+## Alibaba
+### [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
+- [solution](leetcode/ValidParenthesisString.java)
