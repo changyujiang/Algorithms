@@ -37,3 +37,16 @@
 ## HashSet/HashMap
 
 ## List/ArrayList
+
+### Implement strStr() 
+- 除暴力解法之外的其他解法
+
+### 67. Add Binary 
+- StringBuilder
+- result.insert(0, Character.forDigit(sum%2,10));
+
+### Regular Expression Matching
+
+### Wildcard Matching
+
+### Binary search tree
