@@ -25,7 +25,7 @@ public class FindChange {
 		int max = target / coins[level];
 		for (int i = 0; i <= max; i++) {
 			cur.add(i);
-			helper(target - coins[index] * i, coins, level + 1, cur, res);
+			helper(target - coins[level] * i, coins, level + 1, cur, res);
 			cur.remove(cur.size() - 1);
 		}
 	}
