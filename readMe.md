@@ -1,4 +1,17 @@
-# LeetCode Practice Records
+# Algorithm and data structure 
+
+## Basic data structures
+
+## Common algorithms
+
+## Others
+* all square number in a range
+* isPrime
+* greatest common divisor
+* fibonacci
+* trace of matrix
+
+# Classified by company
 ## Amazon
 ### Two Sum
 - [solution1](leetcode/twoSum_sol1.java)
@@ -33,9 +46,8 @@
 ### [Valid Parenthesis String](https://leetcode.com/problems/valid-parenthesis-string/description/)
 - [solution](leetcode/ValidParenthesisString.java)
 
-
+# Markdown
 ## HashSet/HashMap
-
 ## List/ArrayList
 
 ### Implement strStr() 
