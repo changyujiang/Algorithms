@@ -1,4 +1,4 @@
-package laicode.hashmap;
+package laicode.practice.hashmap;
 
 public class Node<K,V> {
 	final K key;
