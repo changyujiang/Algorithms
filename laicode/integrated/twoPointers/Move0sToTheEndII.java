@@ -1,4 +1,4 @@
-package laicode.class18;
+package laicode.integrated.twoPointers;
 /*Data Structure
 Move 0s To The End II
 Given an array of integers, move all the 0s to the right end of the array.
