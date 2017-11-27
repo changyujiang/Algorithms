@@ -1,4 +1,4 @@
-package laicode.class5;
+package laicode.common;
 
 import java.util.ArrayList;
 import java.util.List;

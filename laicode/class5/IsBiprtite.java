@@ -6,6 +6,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Queue;
 
+import laicode.common.GraphNode;
+
 public class IsBiprtite {
 
 	public boolean isBipartite(List<GraphNode> graph) {
