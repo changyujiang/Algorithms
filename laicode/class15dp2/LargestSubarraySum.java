@@ -27,7 +27,7 @@ public class LargestSubarraySum {
 	// example a[]:
 	// 2 -1 4 -2 1
 
-	// dp[k] is the largest subarray sum for [0,k]
+	// dp[i] represents the largest sum of subarray[0,i](including i-th element)
 	// base case
 	// dp[0] = a[0]
 	// dp[i] = dp[i-1] + a[i] if dp[i-1] > 0
@@ -42,18 +42,23 @@ public class LargestSubarraySum {
 	// space: O(1) since each time we only need to look one previous result, we
 	// don't need to record all sub-solution.
 	public int largestSum(int[] array) {
-		// assumption: array not null, length >=1
-		// base case
-		int dp = array[0];
-		int max = dp;
-		for (int i = 1; i < array.length; i++) {
-			if (dp > 0) {
-				dp = dp + array[i];
-			} else {
-				dp = array[i];
-			}
-			max = Math.max(dp, max);
-		}
-		return max;
-	}
+	    // array.length>=1
+	    // 2, -1, 4, -6, 1
+	    // 2  1   5  -1  1
+	    
+	    // initial state
+	    int dp = array[0];
+	    int max = dp;
+	    
+	    // 
+	    for (int i = 1; i < array.length; i++) {
+	      if (dp > 0) {
+	        dp = dp + array[i];
+	      } else {
+	        dp = array[i];
+	      }
+	      max = Math.max(dp, max);
+	    }
+	    return max;
+	  }
 }
