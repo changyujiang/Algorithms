@@ -1,5 +1,25 @@
 package laicode.class13dp2;
 
+
+/*Largest Square Of 1s
+Determine the largest square of 1s in a binary matrix 
+(a binary matrix only contains 0 and 1), 
+return the length of the largest square.
+
+Assumptions
+The given matrix is not null and guaranteed to be of size N * N, N >= 0
+
+Examples
+{ {0, 0, 0, 0},
+
+  {1, 1, 1, 1},
+
+  {0, 1, 1, 1},
+
+  {1, 0, 1, 1}}
+
+the largest square of 1s has length of 2*/
+
 public class LargestSquareOf1s {
 	// 0. key point
 	// largest square; return length
