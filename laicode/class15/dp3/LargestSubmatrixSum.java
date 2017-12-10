@@ -1,4 +1,4 @@
-package laicode.class15dp3;
+package laicode.class15.dp3;
 
 /*
  * Largest SubMatrix Sum

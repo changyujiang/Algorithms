@@ -1,4 +1,4 @@
-package laicode.class15dp3;
+package laicode.class15.dp3;
 
 public class LongestConsective1s {
 	// 0. key point

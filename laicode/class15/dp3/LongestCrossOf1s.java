@@ -1,4 +1,4 @@
-package laicode.class15dp3;
+package laicode.class15.dp3;
 
 /*Longest Cross Of 1s
  Given a matrix that contains only 1s and 0s, 
