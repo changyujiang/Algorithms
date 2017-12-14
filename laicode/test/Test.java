@@ -9,5 +9,6 @@ public class Test {
 	        int right = Integer.MAX_VALUE;
 	        int mid = (left + right) / 2;
 	        System.out.println(right);
+
 	}
 }
