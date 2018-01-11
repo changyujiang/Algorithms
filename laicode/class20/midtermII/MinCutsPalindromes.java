@@ -1,4 +1,4 @@
-package laicode.class20;
+package laicode.class20.midtermII;
 
 public class MinCutsPalindromes {
 	public int minCuts(String input) {
