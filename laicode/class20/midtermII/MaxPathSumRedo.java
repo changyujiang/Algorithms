@@ -12,7 +12,7 @@ import laicode.common.TreeNode;
  *   }
  * }
  */
-public class MaxPathSumII {
+public class MaxPathSumRedo {
   // 0. key point
   // max path sum 
   // leaf node to leaf node
