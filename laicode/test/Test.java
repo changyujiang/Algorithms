@@ -5,10 +5,8 @@ import java.util.Map;
 
 public class Test {
 	public static void main (String[] args) {
-		 int left = 0;
-	        int right = Integer.MAX_VALUE;
-	        int mid = (left + right) / 2;
-	        System.out.println(right);
-
+		 String a = "a1b2c4";
+		 int b = Integer.parseInt(a.substring(5,6));
+		 System.out.println(b);
 	}
 }
