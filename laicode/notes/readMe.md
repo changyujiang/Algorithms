@@ -1,0 +1,1 @@
+# Directory for the collection of notes for Laicode
