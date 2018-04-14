@@ -10,3 +10,65 @@ Logo          : True
 * Set is a collection of elements;
 * For them, key in map and elements in set should be unique;
 * HashMap is a way to implement map in Java;
+
+
+* Common operations 
+  * search - containsKey(), get(), contains() 
+  * insert - put()\[hashmap], add()\[haseset] 
+  * delete - remove() 
+  * Average O(1) Worest Case O(n)_
+
+
+* Hash Collision
+  * chaining 
+  * open address
+
+
+
+# Hashmap related questions
+
+## Top K frequent words
+  1. iterate through the composition, build countMap for each word;
+  2. size K MIN_HEAP(priority queue)
+
+## Only one missing number in array [1..n]
+  * method1: Hashset to store all element, and for 1..n each element, check if it is in the set.
+  * method2: Mathematical way, sum(1..n) - sum(array) = result
+    * cons: overflow
+  * method3: Exclusive OR(XOR), XOR(1..n)XOR(array) = result
+    * since x^x = 0
+
+## Find common numbers in two sorted array a[N], b[M]
+  * assumption: 
+    * number range?
+    * duplicate elements?
+    * order of magnitude of M and N? if N approximately equal to M? if N much larger than M?
+  * methods:
+    * method1: Hashset to store one of array, then search each element of the other in the hashset.
+      * space: O(min(N,M)) 
+      * time: O(m + n)
+    * method2: Two pointers, one for array a, the other for array b;
+      * if a[i] == b[j] , record it, i++,j++
+      * if a[i] < b[j], i++;
+      * if a[i] > b[j], j++;
+      * space: O(1)
+      * time: O(m + n);
+    * method3: Binary search
+      * if N << M
+      * for each element in a[N], we do a binary search in b[M];
+      * space: O(1)
+      * time: O(NlogM)
+      
+
+# String 的5类常考的问题
+1. removel
+  1. remove some paticular chars from a string;
+  2. remove all leading/trailing/duplicated empty spaces from a string
+2. de-duplicate
+  * aaaabbbb_ccc -> ab_c
+3. replace
+4. Reversal
+  * I love yahoo -> yahoo love I
+5. Substring
+  * strStr
+  * 
