@@ -1,0 +1,36 @@
+Title         : Recursion1 & Binary Search
+Author        : Changyu
+
+[TITLE]
+
+# Recursion1
+
+* Read the [reference manual].
+* Explore the upper-right toolbox menu to discover how Markdown works. 
+* `Alt-Q` reformats the current paragraph.
+
+# Binary Search
+What is binary search?
+
+* Reduce the search space by one half according to specific rule.
+* Guarantee that the target must remain in the remianing part (cannot be ruled out accidently).
+
+# Binary Search Questions
+## Classical binary search
+input:int[] array, int target; output: the index of target otherwise return -1;
+
+## Binary search in  2D array
+the only difference is to map the number to index
+
+* say we have an input int[][] array, n, m
+* left = 0; right = n*m-1; mid = left + (right - left) / 2;
+* map mid to array\[map/n]\[map\%n]
+
+## Find the closest number in sorted array
+example:\[1,2],left = 0, right = 1,
+
+* while (left + 1 < right) 
+
+## Find the first element in sorted array
+
+## Find the last element in sorted array
