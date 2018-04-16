@@ -1,0 +1,31 @@
+Title         : Sorting Algorithm
+Author        : Changyu
+Logo          : True
+
+[TITLE]
+
+# Sorting Algorithms
+* selection sort
+* merge sort
+* quick sort
+* bubble sort
+* bucket sort 
+
+# 做题要点
+* document your assumption
+* explain your approach, how you intend to solve the problem
+* provide code comment where applicable
+* explain big O run time complexity
+* identity additional data strucutre you used and justify why you used them.
+* only provide the best answer to each part of the question.
+
+# Selection Sort
+* sort an array use three stacks
+* sort an array use two stacks
+
+# Merge Sort
+
+# Quick Sort
+* parition: (int) (Math.random() * (right - left + 1)) + left;
+* Quick Select: Find the K smallest/largest element in an array
+  * Time complexity: O(n) 
