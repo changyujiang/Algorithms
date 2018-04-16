@@ -29,3 +29,6 @@ Logo          : True
 * parition: (int) (Math.random() * (right - left + 1)) + left;
 * Quick Select: Find the K smallest/largest element in an array
   * Time complexity: O(n) 
+
+# Rainbow Sort
+* Divide a array into serveral parts;
