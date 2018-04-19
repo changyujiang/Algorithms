@@ -1,0 +1,42 @@
+Title         : 3 Queue Stack LinkedList
+Author        : Changyu
+
+[TITLE]
+
+# Queue
+* First in last out, linear;
+* Frequently used in Breadth First Search
+
+# Stack
+* First in first out, linear;
+* Frequently used to convert a recursion solution to an iterative one
+
+# Queue, stack related questions
+## implement a queue with two stacks
+queue: stack1 in; stack2 out;
+## enhance stack with a min() method
+
+## implement a deque with two stacks
+deque: stack1 ....|| ||... stack2
+
+## evaluate reverse polish experssion
+* in-fix: a * (b + c)
+* post-fix/ reverse polish expression: abc+*
+* linear scan the "abc+*"
+* when we meet a operand, we push it to the stack
+* when we meet a operator, we pop out operand from stack and push their result back to stack;
+
+
+# LinkedList
+* When you want to de-reference a ListNode, make sure it is not a NULL pointer;
+* Never ever lose the control of the head pointer of the LinkedList.
+
+# LinkedList Related Question
+## Reverse a linked list
+
+## Find a middle node in linked list
+
+## Is there a cycle in linked list
+
+## Merge two sorted linked list
+* Dummy node usually applied to help code
