@@ -1,0 +1,28 @@
+Title         : 4 Binary tree & Binary Search Tree
+Author        : Changyu
+
+
+[TITLE]
+
+# Binary Tree 
+
+## Pre-order traversal [easy] STAR
+
+## In-order traversal [medium] STAR
+
+## Post-order traversal [hard] STAR
+# Binary Tree Related Question
+
+* Binary tree is highly related with RECURSION!
+* Pass value in bottom-up way;
+
+# Binary Search Tree
+* inorder traversal of binary search tree is an ascending array
+* usually no duplicate
+
+# Binary Search Tree Related Quesitons
+## is binary search tree
+* Pass value up to bottom way
+
+## get the values in specific range
+* modified version of Inorder traversal
