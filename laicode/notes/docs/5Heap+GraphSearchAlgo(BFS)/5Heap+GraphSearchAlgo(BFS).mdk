@@ -1,0 +1,33 @@
+Title         : 5 Heap + Graph Search Algorithm BFS
+Author        : Changyu
+
+[TITLE]
+
+# Heap 
+* PriorityQueue in Java, implement the minHeap or maxHeap
+* Heap is frequenlty used in TopK  questions , best first search (Greedy) algorithms 
+```java
+Prioirity<T>(k, new Comparator<T>() {
+  @Override
+  public int compare (T t1, T t2) {
+    return 0;
+  }
+});
+```
+
+# Heap related question
+## Top K numbers in unsorted array
+
+## Kth numbers in sorted 2D matrix (Best first search)
+
+# Breadth First Search
+a kind of graph search algorithm, expand and generate GraphNode
+
+# BFS1 realted questions
+## Layer by layer print a tree
+* Queue
+
+## Bipartite graph
+
+# Best first search
+* Kind of greedy algorithm
