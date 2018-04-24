@@ -1,0 +1,29 @@
+Title         : DFSI
+Author        : changyu
+
+[TITLE]
+
+# DFS
+* how to implement： easy to use recursion
+* common questions:
+  * all subsets (no duplicate or duplicate)
+  * all permutations (duplicate or no duplicate)
+  * all valid permutations of parenthesis
+  * 99 cents 
+  * Other
+    * given an input string = "127222458", return all valid ip? 
+      * 4 levels. WHY?
+    * permutation of factors of number?
+    * randomly generate a maze.
+* TWO THINGS BEFORE SOLVING THE PROBLEM?
+  * How many layers in the recursion tree?
+  * What is the semantic of each layer? / WHAT DOES IT STORE ON EACH LAYER?
+  * How many different states we should to try to put on this layer?
+
+# All subsets
+
+# String permutations
+
+# 99 cents
+
+# valid permutation parenthesis
