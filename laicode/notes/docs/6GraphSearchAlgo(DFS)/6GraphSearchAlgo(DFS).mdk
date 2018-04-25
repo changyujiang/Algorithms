@@ -26,4 +26,14 @@ Author        : changyu
 
 # 99 cents
 
-# valid permutation parenthesis
+# valid permutation of parenthesis
+* input: N pairs of parenthesis
+* output: All valid permutation
+* approach: DFS, Recursion tree
+  * 有多少层: 2*n = 最终的组合的长度
+  * 每一层考虑一个位置应该放什么element "(" or ")"
+  * 每一层考虑尝试两种不同的情况。
+    * 放"(": 当左括号的个数还少于n的时候，我们总可以继续放
+    * 放")": 当有括号的个数少于左括号的时候，我们可以继续放
+  * Base case:
+    * 从第0层起，到达2n层的时候
