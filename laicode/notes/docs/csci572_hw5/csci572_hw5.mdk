@@ -1,0 +1,55 @@
+Title         : Homework5 Report
+Author        : Changyu Jiang (USC# 3277031697)
+
+[TITLE]
+
+# Steps 
+## Generate “big.txt”
+*	Write a  Java program to extract text from crawled NBCnews pages.
+*	`Tika` lib is used in the program.
+*	Write extracted text into “big.txt”.
+*	The file will be used in following spell correction.
+
+##	Support spell correction
+*	Download Norvig’s spelling program (php version) to implement the spell correction function when query.
+*	Chmod the `var/www/html` folder to support writing serialized dictionary in that folder to reduce the time of query.
+*	When users submit a query, we check each word in the query. If they can match words in the corpus, no correction suggested. 
+Otherwise, we select the most possible words and show a hint like `“Do you mean: XXX”`.
+*	The hint is clickable. It is convenient to clike the corrected query to get the right results.
+
+##	Support auto complete
+*	Add the `SuggestComponent` and `RequestHandler` in `solrconfig.xml`;
+* Reload the core to test its functionality;
+* Make use of `autocomplete` AJAX function to asynchronous call 'http://localhost:8983/solr/myexample/suggest?q='
+* Parse returned json data and render them as a dorp down list.
+
+##	Snippet
+* Use the `simple_html_dom` library to read the content of html file.
+* Find sentences with query terms.
+* Store it to the snippet.
+* Also hightlight the query in snippet.
+
+# Analysis
+## spell correction:
+
+Input | Correction
+---------- | --------------
+trmup | trump
+cookia | cookie
+seerch | search
+submiit | submit
+investigatoon | inverstigation
+
+
+## auto complete:
+
+Input | Suggestions
+---------- | --------------
+califo | california, calif, california's
+abc | about, adchoices, accounts
+subsc | subcat1, subscribe, subscribed
+argu | argument, arguments, around
+goog | google,  good, googlebot
+
+
+
