@@ -20,7 +20,8 @@ Otherwise, we select the most possible words and show a hint like `“Do you mea
 ##	Support auto complete
 *	Add the `SuggestComponent` and `RequestHandler` in `solrconfig.xml`;
 * Reload the core to test its functionality;
-* Make use of `autocomplete` AJAX function to asynchronous call 'http://localhost:8983/solr/myexample/suggest?q='
+* Make use of `autocomplete` AJAX function to asynchronous call 
+  * http://localhost:8983/solr/myexample/suggest?q=
 * Parse returned json data and render them as a dorp down list.
 
 ##	Snippet
