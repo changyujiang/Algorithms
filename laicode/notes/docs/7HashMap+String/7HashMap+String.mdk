@@ -77,3 +77,8 @@ Logo          : True
 1. removal
   * convert string to char array for in-place operation
   * usually slow and fast, two pointers
+  
+2. de-dup
+  * convert to char array
+  * two pointers
+  * Also we may use a Char[] to simulate a stack
